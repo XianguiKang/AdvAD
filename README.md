@@ -34,3 +34,14 @@ CUDA_VISIBLE_DEVICES=0 python main_AdvAD_X.py
 ```
 
 The configurations are set in function *create_attack_argparser()* at the end of the corresponding python file.
+
+## Citation
+```bash
+@inproceedings{
+li2024advad,
+title={AdvAD: Exploring Non-Parametric Diffusion for Imperceptible Adversarial Attacks},
+author={Jin Li and Ziqiang He and Anwei Luo and Jian-Fang Hu and Z. Jane Wang and Xiangui Kang},
+booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems},
+year={2024}
+}
+```
