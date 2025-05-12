@@ -37,11 +37,12 @@ The configurations are set in function *create_attack_argparser()* at the end of
 
 ## Citation
 ```bash
-@inproceedings{
-li2024advad,
-title={AdvAD: Exploring Non-Parametric Diffusion for Imperceptible Adversarial Attacks},
-author={Jin Li and Ziqiang He and Anwei Luo and Jian-Fang Hu and Z. Jane Wang and Xiangui Kang},
-booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems},
-year={2024}
+@article{li2024advad,
+  title={AdvAD: Exploring Non-Parametric Diffusion for Imperceptible Adversarial Attacks},
+  author={Li, Jin and He, Ziqiang and Luo, Anwei and Hu, Jian-Fang and Wang, Z Jane and Kang, Xiangui},
+  journal={Advances in Neural Information Processing Systems},
+  volume={37},
+  pages={52323--52353},
+  year={2024}
 }
 ```

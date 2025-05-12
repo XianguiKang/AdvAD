@@ -96,7 +96,10 @@ def attack_main(model_name=None):
 
 
     args_dict = vars(args)
-    args_dict.update(temp_dict)
+    # args_dict.update(temp_dict)
+    for key, value in temp_dict.items():  
+        if not key in args_dict:  
+            args_dict[key] = value  
     args = argparse.Namespace(**args_dict)
 
     # creating non-parametric diffusion process
